@@ -2,7 +2,7 @@ const inputTarefa = document.querySelector('.tarefatext') // barra de texto
 const btnTarefa = document.querySelector('.btn') // botao
 const tarefas = document.querySelector('.tarefas') // ul
 
-inputTarefa.addEventListener('keypress', function (e) {
+inputTarefa.addEventListener('keypress', function (e){
   if (e.keyCode === 13) {
     criarTarefa(inputTarefa.value);
     limpaInput()
